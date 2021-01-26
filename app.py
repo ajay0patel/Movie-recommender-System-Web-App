@@ -3,8 +3,9 @@ import pickle
 
 app = Flask(__name__)
 
-df = pickle.load(open('dataframe', 'rb'))
 similarity_score = pickle.load(open('simmilarity', 'rb'))
+df = pickle.load(open('dataframe', 'rb'))
+
 
 @app.route('/')
 def home():
