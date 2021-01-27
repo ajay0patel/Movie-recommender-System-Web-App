@@ -77,4 +77,4 @@ def predict():
     
 
 
-app.run(debug=True)
+app.run()
